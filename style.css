@@ -5,6 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    primary-color:#77429A
+}
 body{
     background-color: #E5D6FF;
     background-image: url("/Images/Image.png");
@@ -14,7 +18,7 @@ body{
     background-color: #77429A;
     height: 35px;
     border-radius: 30px;
-    width: 1500px;
+    max-width: 1280px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -61,6 +65,7 @@ body{
     margin-top: 35px;
     gap: 20px;
     text-align: center;
+    margin-bottom: 300px;
 
 
 }
@@ -111,6 +116,45 @@ body{
 .Desktop{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    gap: 20px;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 200px;
+    background-color: #77429a;
+    color: white;
+    position: relative;
+  
+}
+.Desktop > img{
+    margin-top: -200px;
+}
+.abs{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+}
+.abs2{
+    position: absolute;
+    right: 0;
+    top: 10  ;
+    width: 100px;
+
+}
+.company{
+    color: white;
+    display: flex;
+    gap: 40px;
+    padding: 20px 0;
+}
+.smart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.smart h2{
+    font-weight: 500;
+    font-size: 35px;
 }
