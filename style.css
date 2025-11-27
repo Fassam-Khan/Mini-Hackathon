@@ -1,5 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background-color: #E5D6FF;
+    background-image: url("/Images/Image.png");
+    font-family: "Inter Tight", sans-serif;
+}
+.top-head{
+    background-color: #77429A;
+    height: 35px;
+    border-radius: 30px;
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+
+}
+.main-head{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-head ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: gray;
+    font-weight: bold;
+    font-size: 16px;
+}
+.book{
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: #77429A;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.login{
+    background-color: transparent;
+     padding: 15px 20px;
+    border-radius: 30px;
+    color: #77429A;
+    border: 1px solid #77429A;
+    cursor: pointer;
+
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    gap: 20px;
+    text-align: center;
+
+
+}
+.update{
+    background-color: #77429a3e ;
+    padding: 5px 10px;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.h{
+    color: #77429A;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.hero-para{
+    width: 542px;
+    line-height: 30px;
+}
+.trust{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.profiles{
+    display: flex;
+    justify-content: center;
+}
+.profiles-box{
+    border:1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("/Images/p1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: -10px;
+    
+}
+.star{
+    text-align: left;
+    margin-left: 15px;
+
+}
+.Desktop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
