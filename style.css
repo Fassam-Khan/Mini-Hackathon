@@ -152,9 +152,65 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 40px 0;
+    margin-top: 20px;
+    gap: 40px;
+background-color: white;
+
 
 }
 .smart h2{
     font-weight: 500;
-    font-size: 35px;
+    font-size: 50px;
+}
+.growth{
+    color: #77429A;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+
+}
+.smart p{
+    width: 45%;
+    text-align: center;
+
+}
+.chart{
+display: grid;
+grid-template-columns: auto auto auto;
+}
+.chart1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+
+}
+.chart1 h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+.chart1 p{
+    width: 90%;
+}
+.All-in-one{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 60px;
+}
+.manage{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.task{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
 }
