@@ -214,3 +214,18 @@ grid-template-columns: auto auto auto;
     flex-wrap: wrap;
     gap: 8px;
 }
+.discover{
+    background-color: #77429a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+.card{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: auto auto auto;
+}
