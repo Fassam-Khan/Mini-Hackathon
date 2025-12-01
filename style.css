@@ -222,10 +222,41 @@ grid-template-columns: auto auto auto;
     align-items: center;
     text-align: center;
     color: white;
-    padding: 20px 0;
+    padding: 50px 0;
 }
 .card{
     display: grid;
     gap: 40px;
     grid-template-columns: auto auto auto;
+    margin-top: 50px;
+
+}
+.card1{
+    background-color: #E5D6FF;
+    width: 300px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    padding: 30px;
+    align-items: start;
+    color: black;
+    text-align: left;
+    gap: 5px;
+    justify-content: center;
+}
+.card2{
+    background-color: transparent;
+    width: 300px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    padding: 30px;
+    align-items: start;
+    color: white;
+    text-align: left;
+    gap: 5px;
+    justify-content: center;
+    border: 1px solid #ffffff79;
 }
