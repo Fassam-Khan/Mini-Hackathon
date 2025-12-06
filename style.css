@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
-    primary-color:#77429A
+:root {
+    primary-color: #77429A
 }
-body{
+
+body {
     background-color: #E5D6FF;
     background-image: url("/Images/Image.png");
     font-family: "Inter Tight", sans-serif;
 }
-.top-head{
+
+.top-head {
     background-color: #77429A;
     height: 35px;
     border-radius: 30px;
@@ -27,13 +30,15 @@ body{
     margin-top: 20px;
 
 }
-.main-head{
+
+.main-head {
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.main-head ul{
+
+.main-head ul {
     display: flex;
     list-style: none;
     gap: 20px;
@@ -41,7 +46,8 @@ body{
     font-weight: bold;
     font-size: 16px;
 }
-.book{
+
+.book {
     padding: 15px 20px;
     border-radius: 30px;
     background-color: #77429A;
@@ -49,16 +55,18 @@ body{
     border: none;
     cursor: pointer;
 }
-.login{
+
+.login {
     background-color: transparent;
-     padding: 15px 20px;
+    padding: 15px 20px;
     border-radius: 30px;
     color: #77429A;
     border: 1px solid #77429A;
     cursor: pointer;
 
 }
-.hero{
+
+.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,36 +77,42 @@ body{
 
 
 }
-.update{
-    background-color: #77429a3e ;
+
+.update {
+    background-color: #77429a3e;
     padding: 5px 10px;
     border-radius: 30px;
     display: flex;
     gap: 10px;
     justify-content: center;
 }
-.h{
+
+.h {
     color: #77429A;
     font-family: "Instrument Serif", serif;
     font-weight: 400;
     font-style: italic;
 }
-.hero-para{
+
+.hero-para {
     width: 542px;
     line-height: 30px;
 }
-.trust{
+
+.trust {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
-.profiles{
+
+.profiles {
     display: flex;
     justify-content: center;
 }
-.profiles-box{
-    border:1px solid white;
+
+.profiles-box {
+    border: 1px solid white;
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -106,14 +120,16 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: -10px;
-    
+
 }
-.star{
+
+.star {
     text-align: left;
     margin-left: 15px;
 
 }
-.Desktop{
+
+.Desktop {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -123,31 +139,36 @@ body{
     background-color: #77429a;
     color: white;
     position: relative;
-  
+
 }
-.Desktop > img{
+
+.Desktop>img {
     margin-top: -200px;
 }
-.abs{
+
+.abs {
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100px;
 }
-.abs2{
+
+.abs2 {
     position: absolute;
     right: 0;
-    top: 10  ;
+    top: 10;
     width: 100px;
 
 }
-.company{
+
+.company {
     color: white;
     display: flex;
     gap: 40px;
     padding: 20px 0;
 }
-.smart{
+
+.smart {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,31 +176,36 @@ body{
     padding: 40px 0;
     margin-top: 20px;
     gap: 40px;
-background-color: white;
+    background-color: white;
 
 
 }
-.smart h2{
+
+.smart h2 {
     font-weight: 500;
     font-size: 50px;
 }
-.growth{
+
+.growth {
     color: #77429A;
     font-family: "Instrument Serif", serif;
     font-weight: 400;
     font-style: italic;
 
 }
-.smart p{
+
+.smart p {
     width: 45%;
     text-align: center;
 
 }
-.chart{
-display: grid;
-grid-template-columns: auto auto auto;
+
+.chart {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
-.chart1{
+
+.chart1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -188,14 +214,17 @@ grid-template-columns: auto auto auto;
 
 
 }
-.chart1 h4{
+
+.chart1 h4 {
     font-weight: 600;
     font-size: 20px;
 }
-.chart1 p{
+
+.chart1 p {
     width: 90%;
 }
-.All-in-one{
+
+.All-in-one {
     background-color: white;
     display: flex;
     justify-content: center;
@@ -203,18 +232,21 @@ grid-template-columns: auto auto auto;
     gap: 20px;
     padding-bottom: 60px;
 }
-.manage{
+
+.manage {
     width: 30%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.task{
+
+.task {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
 }
-.discover{
+
+.discover {
     background-color: #77429a;
     display: flex;
     flex-direction: column;
@@ -223,15 +255,19 @@ grid-template-columns: auto auto auto;
     text-align: center;
     color: white;
     padding: 50px 0;
+
 }
-.card{
+
+.card {
     display: grid;
     gap: 40px;
     grid-template-columns: auto auto auto;
     margin-top: 50px;
+    background-color: #77429a;
 
 }
-.card1{
+
+.card1 {
     background-color: #E5D6FF;
     width: 300px;
     border-radius: 12px;
@@ -245,7 +281,8 @@ grid-template-columns: auto auto auto;
     gap: 5px;
     justify-content: center;
 }
-.card2{
+
+.card2 {
     background-color: transparent;
     width: 300px;
     border-radius: 12px;
@@ -260,14 +297,17 @@ grid-template-columns: auto auto auto;
     justify-content: center;
     border: 1px solid #ffffff79;
 }
-.plan{
+
+.plan {
     padding: 50px 0;
     background-color: white;
 }
-.p{
-    width: 40%  ;
+
+.p {
+    width: 40%;
 }
-.plan-title{
+
+.plan-title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -275,39 +315,119 @@ grid-template-columns: auto auto auto;
     gap: 15px;
     text-align: center;
 }
-.plan-title h2{
+
+.plan-title h2 {
     font-weight: 500;
 
 }
-.plan-price{
+
+.plan-price {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
 }
-.about{
+
+.about {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    width: 80%;
-    margin: auto    ;
-padding: 30px 0;
+    margin: auto;
+    padding: 30px 0;
+    height: 600px;
+    background-color: #f5eeff;
 }
-.about-1{
+
+.about-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    width: 45%;
+    width: 30%;
 }
-.about-2{
+
+.about-2 {
     width: 30%;
     display: flex;
+    gap: 20px;
+}
+
+.review-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.questions {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 180px;
+}
+
+.question-sec {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     gap: 30px;
 }
-.review-2{
+
+.question-title {
+    text-align: center;
+}
+
+.accordion {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 630px;
+}
+
+.accordion-item {
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+footer{
+    margin-top: 60px;
+    background-color: white;
+}
+.topFooter{
+    color: white;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    padding: 30px 0;
+    background: linear-gradient(to bottom, #8352a5, #dacce4);
+    gap: 30px;
+    border-radius: 12px;
+    margin-top: -100px;
+    margin-bottom: -50px;
+    position: relative;
+    z-index: 10px;
+ 
+
+}
+.middleFooter{
+    padding-top: 80px;
+    background-color: #8352a5;
+    color: white;
+   
+}
+.wrapper{
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
